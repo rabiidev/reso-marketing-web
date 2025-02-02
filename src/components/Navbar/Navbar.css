@@ -1,0 +1,273 @@
+.btnsearch{
+    background-color: #1f3a67;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 70px;
+}
+
+.searcht{
+  border: #475569 solid 1px ; 
+  /* opacity: 60% ; */
+  color: #0f172a  ;
+  /* background-color: #475569; */
+  
+}
+
+.searchi{
+    margin-left: 20px;
+}
+
+.formdiv{
+    padding-right: 20px;
+    
+
+}
+
+.formsearch{
+}
+
+.searcht{
+    width: 370px;
+    margin-left: 0px;
+}
+
+.selectdropdown{
+    width: 140px;
+}
+
+.tablogin{
+    width: 15%;
+    margin-right: 0px ;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.logindown{
+    padding-left: 0px;
+    width: 90px;
+}
+
+.loginright{
+    /* padding-left: 5px; */
+    /* margin-left: 10px; */
+}
+
+.btnsell{
+    border: #0f172a solid 2px;
+    border-radius: 20px;
+    width: 90px;
+}
+
+.plusicon{
+    margin-top: 6px;
+}
+
+/* .comparediv{
+    width: px;
+    border: #0f172a solid 2px;
+    padding-left: px;
+    margin-bottom: 15px;
+} */
+
+.compareiconimg{
+    margin-left: 30px;
+    padding-left: 0px;
+    margin-top: 12px;
+
+}
+
+.btnwhist{
+    margin-left: 5px;
+
+}
+
+.whistimg{
+    margin-top: 14px;
+   
+}
+
+.loginitems{
+    height: 300px;
+    border: #0f172a solid 2px;
+}
+
+/* @media (max-width: 769px) {
+    .navbar{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999 !important;
+        opacity: 0;
+        box-shadow: 0px 29px 88px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+        transform:  translateX(-100vw);
+    }
+} */
+
+/* @media (max-width: 425px) {
+    .logoimg {
+        width: 10rem;
+        height: auto;
+    }
+}
+
+@media   (max-width: 768px){
+    .btnsell{
+        display: block;
+    }
+    
+    .tablogin{
+        display:none;
+    }
+    
+    
+
+    .topnav{
+        display:none;
+
+    }
+    .formdiv{
+        display:none;
+    }
+
+}
+
+@media (max-width:1325px) {
+    .navbar{
+        padding: 0 2rem;
+
+    }
+} */
+
+/* Navbar.css */
+
+
+  
+  /* Responsive for medium and larger screens */
+  @media (max-width: 768px) {
+    .logoimg {
+      width: 100px; /* Smaller logo for small screens */
+      padding-left: 20px;
+    }
+  
+    /* Adjust the sell button and icons */
+    .btnsell {
+      display: flex;
+      align-items: ;
+      justify-content: ;
+      font-size: 15px;
+      padding-right: 0px;
+    }
+  
+    .mobilenav {
+      width: 100%; /* Full width on small screens when opened */
+    }
+  
+    .plusicon {
+      margin-top: 2px;
+      margin-right: 0px; 
+      width: 18px;
+      height: 18px;
+    }
+  
+    .searchplustab, .sidebardiv, .lgindiv, .topnav, .navicondiv {
+      display: none;
+    }
+
+  
+    .sidebaropen{
+      display: block;
+    }
+  
+    .mobilenav.open {
+      width: 100%; /* Full screen width for the open menu */
+    }
+  
+    .menu-btn {
+      font-size: 1.8rem; /* Adjust size of the menu button */
+    }
+  }
+  
+  /* Responsive styles for medium screens (768px to 1024px) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+    .searchplustab, .sidebardiv, .lgindiv, .topnav, .navicondiv {
+      display: none;
+    }
+  
+    .sidebaropen{
+      display: block;
+    }
+  
+    .logoimg {
+      width: 120px; /* Adjust logo size for medium screens */
+    }
+  
+    .btnsell {
+      font-size: 16px; /* Increase font size for medium screens */
+    }
+  
+    .mobilenav {
+      width: 100%; /* Limited width for medium screens */
+    }
+  
+    .mobilenav.open {
+      width: 256px; /* Open width for medium screens */
+    }
+  
+    .menu-btn {
+      font-size: 1.8rem;
+      
+    }
+  
+    .heroimg{
+      display: block ;
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .menu-btn{
+      display: none;
+    }
+  }
+    
+  
+    
+  
+    
+
+    /* @media (max-width: 768px) { */
+      /* Hide everything except logo */
+      /* .formdiv, .tablogin, .searchbar, .navbar, .topnav, .nav-topt,  .topnavicondiv, .sidebar {
+        display: none;
+      } */
+      
+
+      /* Show button instead */
+      /* .responsive-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #475569;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      } */
+    
+      /* Adjust the logo size */
+      /* .logoimg {
+        width: 80px;
+      }
+    } */
+    
+   
+
+    

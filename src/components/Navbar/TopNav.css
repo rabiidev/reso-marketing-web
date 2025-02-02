@@ -1,0 +1,37 @@
+.topnav{
+    background-color: #1f3a67;
+
+}
+
+.navbar{
+    /* padding-bottom: 20px; */
+}
+
+.nav-toptp{
+    padding-left: 40%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.white-circle{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 13px;
+    height: 13px;
+    margin-top: 10px;
+    margin-left: px;
+}
+
+.topnavicondiv{
+    padding-left:120px ;
+    width: 30%;
+    
+}
+
+.btntobnav1{
+
+    
+    padding-right: 0%;
+    color: #fff;
+}

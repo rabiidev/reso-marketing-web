@@ -1,0 +1,179 @@
+
+/* General mobile menu styles */
+.mobilenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  transition: width 0.3s ease;
+  z-index: 9999;
+}
+
+.mobilenav.open {
+  width: 256px; /* Visible width when menu is open */
+}
+
+/* Menu items */
+.mobilenavdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.logoimg {
+  width: 150px; /* Default size */
+}
+
+/* Button to toggle menu */
+.mobilenav button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive styles for small screens (below 768px) */
+@media (max-width: 768px) {
+  .logoimg {
+    width: 100px; /* Smaller logo for small screens */
+  }
+
+  /* Adjust the sell button and icons */
+  .btnsell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .mobilenav {
+    width: 100%; /* Full width on small screens when opened */
+  }
+
+  .plusicon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .formdiv, .sidebardiv, .navbar, .topnav {
+    display: none;
+  }
+
+  .sidebaropen{
+    display: block;
+  }
+
+  .mobilenav.open {
+    width: 100%; /* Full screen width for the open menu */
+  }
+
+  .menu-btn {
+    font-size: 1.8rem; /* Adjust size of the menu button */
+  }
+}
+
+/* Responsive styles for medium screens (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  .formdiv, .sidebardiv, .navbar, .topnav {
+        display: none;
+      }
+
+  .sidebaropen{
+    display: block;
+  }
+
+  .logoimg {
+    width: 120px; /* Adjust logo size for medium screens */
+  }
+
+  .btnsell {
+    font-size: 16px; /* Increase font size for medium screens */
+  }
+
+  .mobilenav {
+    width: 100%; /* Limited width for medium screens */
+  }
+
+  .mobilenav.open {
+    width: 256px; /* Open width for medium screens */
+  }
+
+  .menu-btn {
+    font-size: 1.8rem;
+    
+  }
+
+  .heroimg{
+    display: block ;
+  }
+}
+
+
+
+/* Hide the mobile menu by default */
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-red-2px {
+  background-color: red;
+  height: 10vh;
+}
+  
+
+
+/* .mobilenav {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999 !important;
+    opacity: 0;
+    box-shadow: 0px 29px 88px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    transform:  translateX(-100vw);
+}
+
+.mobile-menu-container{
+    width: 60vw;
+    height: 100vh;
+    background-color: #342864;
+    padding: 2rem;
+}
+.mobilenav.active{
+    opacity: 1;
+    transform: translateX(0);
+
+}
+.mobilenav img{
+    margin-bottom: 3rem;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-left: -2rem;
+}
+
+@media (max-width: 768px) {
+    .mobilenav{
+        display: block;
+    }
+}
+ */
+
+ 

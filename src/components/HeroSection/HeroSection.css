@@ -1,0 +1,29 @@
+.sidebardiv{
+    width: 290px;
+    height: 800px;
+    /* border: black solid 2px; */
+    height: 100vh;
+}
+
+.categoriesdiv{
+    background-color: #1f3a67 ;
+    margin-left: 30px;
+    height: 6.5vh;
+}
+
+.categoryicon{
+    margin-top: 12px ;
+}
+
+.tabitemf{
+    
+    
+    border: red solid 1px;
+}
+
+.heroimg{
+    
+    border-radius: 8px;
+    width: 1020px;
+    padding-top: 12px;
+}
